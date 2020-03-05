@@ -1,0 +1,35 @@
+body
+{
+ max-width: 1000px;
+ margin: 0 auto;
+ padding-top: 45px;
+ text-align: center;
+ background-color: black;
+}
+h1 
+{
+ font-style: normal;
+ color: aliceblue;
+ font-family: "Trebuchet MS", sans-serif;
+ font-size: 4em;
+ word-spacing: normal;
+}
+h2
+{
+ font-style: normal;
+ color: aliceblue;
+ font-family: "Trebuchet MS", sans-serif;
+ font-size: 1.5em;
+ word-spacing: normal;
+}
+p.line 
+{
+ font-style: normal;
+ color: aliceblue;
+ font-family: "Trebuchet MS", sans-serif;
+ font-size: 1.2em;
+ word-spacing: normal;
+}
+@media screen and (max-width: 600px)
+{body{max-width: 100%}
+}
