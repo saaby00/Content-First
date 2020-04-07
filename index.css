@@ -1,12 +1,16 @@
 body
 {
- font-family: Trebuchet MS sans-serif;
+ font-family: Trebuchet MS, sans-serif;
  padding-top: 1em; 
 }
 h1
 {
  text-align: center;
  font-size: 3.5em;
+}
+.intro
+{
+ 
 }
 #about
 {
@@ -85,6 +89,10 @@ div.plum
 {
  background-color: #993366;
  width: 15em;
+}
+.textarea
+{
+ font-family: Trebuchet MS, sans-serif;
 }
 #designer
 {
