@@ -8,9 +8,26 @@ h1
  text-align: center;
  font-size: 3.5em;
 }
+nav
+{
+ text-align: center;
+}
+a
+{
+ color: black;
+}
+a:hover
+{
+ color:gainsboro;
+}
+a:visited
+{
+ color:dimgray; 
+}
 .intro
 {
- 
+ margin: 1em auto;
+ width 100%;
 }
 #about
 {
@@ -20,14 +37,14 @@ h1
 div.purple
 {
  background-color: #996699;
- width: 15em;
+ margin: 1em;
 }
 h2
 {
  text-align: center;
  font-size: 2.5em;
 }
-div.summary
+.summary
 {
  width: 15em;
  padding-left: 1rem;
@@ -37,58 +54,30 @@ div.summary
  display: flex;
  flex-direction: row;
 }
-div.pink
+.pink
 {
  background-color: #ff8f98;
- width: 15em;
-}
-div.glyphs
-{
- background-color: #ff8f98;
-}
-div.leters
-{
- background-color: #ff8f98;
-}
-div.numbers
-{
- background-color: #ff8f98;
+ margin-left: 1em;
 }
 #styles
 {
  display: flex;
  flex-direction: row;
 }
-div.green
+.green
 {
  background-color: #339999;
- width: 15em;
-}
-div.regabc
-{
- background-color: #339999;
-}
-div.boldabc
-{
- background-color: #339999;
-}
-div.italicabc
-{
- background-color: #339999;
-}
-div.biabc
-{
- background-color: #339999;
+ margin: 1em;
 }
 #tryme
 {
  display: flex;
  flex-direction: row;
 }
-div.plum
+.plum
 {
  background-color: #993366;
- width: 15em;
+ margin: 1em;
 }
 .textarea
 {
@@ -99,8 +88,8 @@ div.plum
  display: flex;
  flex-direction: row;
 }
-div.blue
+.blue
 {
- background-color: #99cdff;
- width: 15em;
+ background-color: #99ccff;
+ margin: 1em;
 }
