@@ -3,6 +3,7 @@ body
  font-family: Trebuchet MS, sans-serif;
  padding-top: 1em; 
  max-width: 750px;
+ margin: 0 auto;
 }
 h1
 {
@@ -39,17 +40,15 @@ a:visited
 .purple
 {
  background-color: #996699;
- margin: 1em;
 }
 h2
 {
  text-align: center;
  font-size: 2.5em;
 }
-.summary
+#summary
 {
- width: 15em;
- padding-left: 1rem;
+ margin-left: 2em;
 }
 #characters
 {
@@ -59,22 +58,18 @@ h2
 .pink
 {
  background-color: #ff8f98;
- margin-left: 1em;
 }
-#smallpink
+.smallpink
 {
  display: flex;
  flex-direction: row;
- align-items: baseline;
+ align-items: baseline; 
+ justify-content: space-evenly; 
 }
 .column
 {
  display: flex;
  flex-direction:column;
-}
-.sum
-{
- margin-left: 2em; 
 }
 #glyphs
 {
@@ -95,17 +90,18 @@ h2
 {
  display: flex;
  flex-direction: row;
+ align-items: baseline;
 }
 .green
 {
  background-color: #339999;
- margin: 1em;
 }
 .smallgreen
 {
  display: flex;
  flex-direction: row;
- align-items: baseline;   
+ align-items: baseline; 
+ justify-content: space-evenly; 
 }
 #regabc
 {
@@ -130,30 +126,50 @@ h2
  font-size: 2em;
  font-style: bold italic;
 }
+#swdesc
 {
- font-size: 2em;
+ margin-left: 2em;
 }
 #tryme
 {
  display: flex;
  flex-direction: row;
+ align-content: flex-start;
 }
 .plum
 {
  background-color: #993366;
- margin: 1em;
 }
 .tryme
 {
  font-family: Trebuchet MS, sans-serif;
 }
+textarea
+{
+ padding: 2em;
+ margin-left: 2em;
+}
 #designer
 {
  display: flex;
  flex-direction: row;
+ align-content: flex-start;
 }
 .blue
 {
  background-color: #99ccff;
- margin: 1em;
+}
+#bio
+{
+ margin-left: 2em; 
+}
+.type
+{
+ text-align: left;
+ word-spacing: normal;
+ line-height: 1.2em;
+}
+#top
+{
+ text-decoration: none;
 }
