@@ -54,22 +54,17 @@ h2
 {
  display: flex;
  flex-direction: row;
+ justify-content: space-between;
 }
 .pink
 {
  background-color: #ff8f98;
 }
-.smallpink
-{
- display: flex;
- flex-direction: row;
- align-items: baseline; 
- justify-content: space-evenly; 
-}
 .column
 {
  display: flex;
  flex-direction:column;
+ max-width: 20%;
 }
 #glyphs
 {
@@ -106,10 +101,6 @@ h2
 #regabc
 {
  font-size: 2em;
-}
-#regular
-{
- 
 }
 #boldabc
 {
@@ -172,4 +163,11 @@ textarea
 #top
 {
  text-decoration: none;
+}
+
+@media screen and (max-width: 600px)
+    
+{
+    body {max-width: 100%}
+    #about, #characters, .column, #styles, .smallgreen, #tryme, #designer {display: block;}
 }
